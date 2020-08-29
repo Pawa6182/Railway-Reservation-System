@@ -1,0 +1,106 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Railway Reservation System</title>
+     <link rel="stylesheet" type="text/css"href="railway.css">
+<script>
+function f1(imgobj,path)
+{   imgobj.src=path;
+}
+</script>
+
+</head>
+
+<body background="Images\Trains railroad tracks.jpg" width=100%>
+     <div class="railwaySystem">
+<center>
+<form name="myform" method="get"  action="options.html" onSubmit="f1()">
+  <div class="header" width=70%>  
+  <table>
+  <tr>
+  <td>
+    <img src="Images/Indian_Railway.png" width="100" height="100"></td><td>RAILWAY RESERVATION SYSTEM
+  </td>
+  <tr>
+      
+
+  </table>
+  </div>
+    <marquee width="40%"  ><font color="red">Welcome to Online Railway Reservation System......  </font></marquee>
+    <hr/>
+
+	<table style="font-size:23px;" width=100% class="table1">
+    <tr>
+    <td class="fields"><a href="home.html" style="color:navajowhite;">Home</a>&emsp;&emsp;<a href="Schedule.html" style="color:navajowhite;">Schedule</a>&emsp;&emsp;<a href="About.html" style="color:navajowhite;">About Us</a> &emsp;&emsp;<a href="Contact Us.html" style="color:navajowhite;">Contact Us</a></td>
+    </tr>
+    </table>
+    <hr/>
+    <div class="img">
+    <img src="Images/img.jfif" width="600" height="400"  
+         onmouseover="f1(this,'Images/wappy4.jpg');"
+         onmouseout="f1(this,'Images/img.jfif');"
+         >
+   </div>
+     <table  class="table" width="600" height="400" style="border-collapse:collapse;text-align:center;" >
+     <tr>
+     <td style="font-size:23px;font-style: normal;color: navajowhite;">Please Sign In or Sign Up to proceed further.
+     </td>
+     </tr>
+     
+     
+   <tr>
+   <td><input type="name" class="text1" placeholder="User Name" name="user_name"  style="font-size:20px;text-align:center;color:#999;" required ></td> 
+	</tr>
+    <tr>
+    <td>
+    <input type="password" class="text2" placeholder="Password" name="pwd" style="font-size:20px;text-align:center;color:#999;" required>
+    </td>
+    </tr>
+    <tr>
+    <td>
+        
+    <input type="Submit" class="button" value="Sign In" style="font-size:18px;font-family:Arial;color:orange;border-radius: 5px;background:rgba(0,51,204,0.1);"
+           onclick="alert('signed in successfully')">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+      
+       
+        <input type="button" value="Sign Up" onclick='window.location.href="signup.html"' style="font-size:18px;font-family:Arial;border-radius: 5px; color:orange;background:rgba(0,51,204,0.1);"></td>
+     </table>
+     <br>
+     <table width=100%	class="table2" style="text-align:center;">
+     <tr>
+     <td style="font-family:arial;font-size:30px;">
+     Online Railway Reservation System
+     </td>
+     </tr>
+     <tr>
+     <td style="font-family:monospace;font-size:15px;">
+     This is the online Railway Reservation System of India and we provide services that satisfy your traveling needs.<br>
+     We provide fast seat booking and interactive and user friendly interface that suits yours needs.<br>
+     You can book,cancel and ask about your queries here.
+     </td>
+     </tr>
+     </table>
+         <br>
+     <table width=100%	class="table2" style="text-align:center;">
+     <tr>
+     <td style="font-family:monospace;font-size:15px;">
+          <img src="Images/img2.png" width="130" height="70" >
+          <img src="Images/img3.png" width="240" height="70"  >
+          <img src="Images/img4.png" width="180" height="70"  >
+          <img src="Images/img5.png" width="180" height="70"  >
+             Copyright ©Lovely Professional University<br/>
+                    html webpage project              <br/>
+                   address-LPU,phagwara<br/>
+         
+     </td>
+     </tr>
+    
+     </table>
+     
+     
+    </form>
+         </center>
+    </div>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<style>
+
+input.text
+{
+	font-family: sans-serif;
+	font-size:16px;
+	text-align:center;
+}
+label.label
+{
+		font-family:sans-serif;
+	font-size:16px;
+}
+</style>
+
+
+table
+{
+    border:1px solid white;padding:20px;margin-left:20px;height:500px;width:1280px;
+    text-align:center;border-radius:30px;
+color:white;font-size:18px;float:left;
+}
+
+
+h1
+{
+    color:black;text-align:center;font-size:40px;
+}
+
+legend
+{
+    color:red;font-size:20px;font-family:comic sans ms;
+}
+    input
+    {
+         font-family:Tahoma,Geneva, sans-serif;font-size:20px;background:rgba(204,102,0,0.3);border-radius:20px;
+    }
+table
+{padding:20px;text-align:left;color:black;background:rgba(153,153,153,0.4);text-align:center;border-radius:30px;
